@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.clear{
+    clear: both;
+}
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+.top-bar{
+   top:0;
+   height: 70px;
+   background: #FFF; 
+}
+.top-bar p, a{
+    font-size: 14px;
+    color:#747474 ;
+    font-weight: bold;
+}
+.top-bar a{
+    text-decoration: none;
+}
+.top-bar .logo{
+    float: left;
+    margin-right: 80px;
+}
+.top-bar  p{
+    display: inline-block;
+}
+.top-bar .nav-bar a{
+    margin-right: 110px;
+}
+.top-bar a:hover{
+    width: 100px;
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #0272FA;
+}
+.top-bar .img2{
+     float: left;
+     margin-top: 14px;
+}
+.top-bar p{
+    margin-top: 20px;
+}
+.top-bar p{
+    margin-right: 80px;
+}
+.top-bar nav{
+    display: inline-block;
+}
+.top-bar .translate{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 30px;
+    float: right;
+    margin-top: 20px;
+    background-color: #CCECFF;
+}
+
+.top-bar .translate p{
+    display: inline;
+}
+/*Second Bloc avec mes images*/
+
+#Walpaper{
+    background-color:#006FFF;
+    width: 100%px;
+    height: 500px;
+}
+#Walpaper .img{
+    float: right;
+}
+#Walpaper h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+#Walpaper p1{
+    color: white;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 'regular';
+}
+.tufo{
+    padding-right: 5px;
+}
+.tuto{
+    padding: 10px;
+    border-radius: 4px;
+    width:220px;
+    height: 40px;
+    background-color: white;
+}
+.tuto p2{
+    padding-left: 30px;
+    padding-right: 55px;
+}
+
+.formation{
+    padding: 10px;
+    border-radius: 4px;
+    width:220px;
+    height: 40px;
+    background-color:#0050DC;
+}
+.formation p2{
+    padding-right: 55px;
+    padding-left: 30px;
+}
+/*SECTION MAIN*/
+.main{
+    padding: 80px;
+}
+.main > h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.main > p{
+  font-size: 16px;  
+}
+.main a {
+    padding: 10px;
+    background: #0272FA ;
+    color: white;
+    width: 207px;
+    height: 45px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.main .main-left{
+    float:left;
+    margin-right: 30px;
+    
+}
+.main .main-left p{
+    line-height: 25px;
+}
+.main .main-right div img{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.main .main-right div{
+    display: inline-block;
+    background:#E9E9E9 ;
+    margin-right: 5px;
+    border-radius: 6px;
+    width: 205px;
+    box-shadow:  3px 3px 3px #a19696 ;
+}
+.main .main-right div p{
+    padding: 5px;
+}
+.main .main-right div .p1{
+    font-weight: bold;
+    color: #1A1A1B;
+    font-size: 14px;
+}
+.main .main-right div .number{
+ font-size: 12px;
+}
+.main .main-right .semi-footer{
+   display:flex;
+    justify-content: space-betwen;
+    align-items: center; 
+}
+.main .main-right .semi-footer p{
+ float: left;
+ margin-right: 5px;
+}
+.main .main-right .semi-footer span{
+    display:flex;
+    justify-content: space-betwen;
+    align-items: center;
+}
+
+/*SECTION MAIN */
+.main2{
+    padding: 80px;
+}
+.main2 > h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.main2 > p{
+  font-size: 16px;  
+}
+.main2 a {
+    padding: 10px;
+    background: #0272FA ;
+    color: white;
+    width: 207px;
+    height: 45px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.main2 .main-right{
+    padding: 85px;
+}
+
+.main2 .main-right p{
+    line-height: 25px;
+}
+.main2 .main-left{
+    float: left;
+    margin-right: 50px;
+}
+.main2 .main-left div{
+    display: inline-block;
+    background:#E9E9E9 ;
+    margin-right: 10px;
+    border-radius: 6px;
+    width: 205px;
+    box-shadow:  5px 5px 5px #a19696 ;
+}
+.main2 .main-left div img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.main2 .main-left div p{
+    padding: 5px;
+}
+.main2 .main-left div .p1{
+    font-weight: bold;
+    color: #1A1A1B;
+    font-size: 14px;
+}
+.main2 .main-left div .number{
+ font-size: 12px;
+}
+.main2 .main-left .semi-footer{
+   display:flex;
+    justify-content: space-betwen;
+    align-items: center; 
+}
+.main2 .main-left .semi-footer p{
+ float: left;
+ margin-right: 5px;
+}
+.main2 .main-left .semi-footer span{
+    display:flex;
+    justify-content: space-betwen;
+    align-items: center;
+}
+
+/*SECTION GRID*/
+.grid-section{
+   background: #F1F1F1;
+   padding: 97px;
+}
+.grid-section h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.grid > div {
+    background-color: #ffffff;
+    border:  3px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow:  5px 5px 5px #a19696 ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+/*Section Accesssss*/
+
+
+.acces{
+    background-color: #0272FC;
+    width: 100%;
+    height: 140px;
+    padding-top: 50px;
+}
+.acces p{
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    display: inline-block;
+}
+.acces .detail{
+    float: right;
+}
+.acces .reset{
+    padding-right: 190px;
+}
+
+/*Section Acesssssssss2*/
+
+.acess2{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 140px;
+    padding: 30px;
+}
+.acess2 p{
+    color: #1A1A1B;
+    font-size:16px;
+    font-weight: bold;
+    display: inline-block;
+}
+.acess2 .detail{
+    float: right;
+}
+.acess2 .reset{
+    padding-right: 150px;
+}
+/*
+.acces span{
+    padding-right:130px ;
+    padding-left: 20px;
+}*/
+/*Section Footer*/
+ .sec-foot{
+     background-color: #006FFF;
+     width: 100%;
+     height: 354px;
+ }
+
+ .sec-foot .img{
+     float: left;
+     margin-right: 90px;
+ }
+ .sec-foot .contact h2{
+    margin-top: 70px;
+ }
+
+ .sec-foot h2{
+     font-size: 30px;
+     color: white;
+     font-weight: bold;
+ }
+ .sec-foot p{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+.sec-foot .contact{
+    padding-top: 30px;
+}
+.sec-foot button{
+    width: 207px;
+    height: 45px; 
+    background-color: #0272FA;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sec-foot button p{
+    color: white;
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    height: 140px;
+    background: #F1F1F1;
+}
+
+.footer .logo2{
+    float: left;
+    margin-top: 60px;
+    margin-right: 55px;
+}
+.footer p{
+   padding-top: 55px;
+}
+
+.footer  img{
+    float: right;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+
+footer{
+    background-color: #0272FA;
+    width: 100%;
+    height: 30px;
+}
