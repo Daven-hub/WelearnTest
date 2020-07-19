@@ -17,9 +17,19 @@ body{
 }
 .top-bar{
    top:0;
-   height: 70px;
+   bottom: 0;
+   height: 30px;
    background: #FFF; 
 }
+.top-bar .nav-bar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.top-bar .nav-bar a{
+    margin-right: 105px;
+}
+
 .top-bar p, a{
     font-size: 14px;
     color:#747474 ;
@@ -35,15 +45,10 @@ body{
 .top-bar  p{
     display: inline-block;
 }
-.top-bar .nav-bar a{
-    margin-right: 110px;
-}
-.top-bar a:hover{
-    width: 100px;
-    height: 40px;
+.top-bar .active{
+    width: 150px;
+    border-radius: 2px;
     padding: 15px;
-    text-align: center;
-    border-radius: 5px;
     color: white;
     background-color: #0272FA;
 }
@@ -52,29 +57,26 @@ body{
      margin-top: 14px;
 }
 .top-bar p{
-    margin-top: 20px;
-}
-.top-bar p{
     margin-right: 80px;
 }
+
 .top-bar nav{
     display: inline-block;
 }
 .top-bar .translate{
-    width: 170px;
+    width: 150px;
     height: 30px;
     border-radius: 5px;
-    text-align: center;
-    padding-top: 4px;
-    padding-left: 30px;
-    float: right;
-    margin-top: 20px;
     background-color: #CCECFF;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.top-bar .translate img{
+    margin-left: 5px;
+    margin-right: 18px;
 }
 
-.top-bar .translate p{
-    display: inline;
-}
 /*Second Bloc avec mes images*/
 
 #Walpaper{
@@ -97,30 +99,39 @@ body{
     font-weight: 'regular';
 }
 .tufo{
-    padding-right: 5px;
+  
 }
 .tuto{
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     width:220px;
-    height: 40px;
+    height: 44px;
+    margin-right: 8px;
     background-color: white;
 }
 .tuto p2{
     padding-left: 30px;
     padding-right: 55px;
 }
+.tuto:hover{
+    background-color:#0050DC;
+    border: #fff 2px solid;
+}
 
 .formation{
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     width:220px;
-    height: 40px;
+    height: 44px;
     background-color:#0050DC;
 }
 .formation p2{
     padding-right: 55px;
     padding-left: 30px;
+}
+.formation:hover{
+    background-color:#fff;
+    border: #0050DC 2px solid;
 }
 /*SECTION MAIN*/
 .main{
@@ -311,7 +322,7 @@ body{
 
 .acess2{
     background-color: #F1F1F1;
-    width: 100%;
+    width: 96.19%;
     height: 140px;
     padding: 30px;
 }
@@ -325,7 +336,7 @@ body{
     float: right;
 }
 .acess2 .reset{
-    padding-right: 150px;
+    padding-right: 120px;
 }
 /*
 .acces span{
