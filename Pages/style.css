@@ -116,9 +116,11 @@ body{
 .tuto:hover{
     background-color:#0050DC;
     border: #fff 2px solid;
+    color: #fff;
 }
 
 .formation{
+    color: #fff;
     padding: 10px;
     border-radius: 10px;
     width:220px;
@@ -130,6 +132,7 @@ body{
     padding-left: 30px;
 }
 .formation:hover{
+    color: #0050DC;
     background-color:#fff;
     border: #0050DC 2px solid;
 }
@@ -155,8 +158,13 @@ body{
 }
 .main .main-left{
     float:left;
-    margin-right: 30px;
-    
+    margin-right: 30px;  
+}
+.main .main-left .btn:hover{
+    color: #006FFF;
+   transition-duration: 0.5s;
+    background: #fff;
+    border:#006FFF 2px solid;
 }
 .main .main-left p{
     line-height: 25px;
@@ -198,6 +206,15 @@ body{
     justify-content: space-betwen;
     align-items: center;
 }
+.main2 .btn{
+    border-radius: 5px;
+}
+.main2 .btn:hover{
+    border: #0050DC 2px solid;
+    background-color: #FFF;
+    color: #0272FC;
+}
+
 
 /*SECTION MAIN */
 .main2{
@@ -267,6 +284,15 @@ body{
     justify-content: space-betwen;
     align-items: center;
 }
+.main2 .btn{
+    border-radius: 5px;
+}
+.main2 .btn:hover{
+    border: #0050DC 2px solid;
+    background-color: #FFF;
+    color: #0272FC;
+}
+
 
 /*SECTION GRID*/
 .grid-section{
@@ -286,7 +312,11 @@ body{
     justify-content: space-between;
     align-items: center;
     border-radius: 2px;
-    box-shadow:  5px 5px 5px #a19696 ;
+    box-shadow:  1px 1px 2px #a19696 ;
+}
+.grid > div:hover{
+    padding: 8px;
+    box-shadow:  5px 5px 15px
 }
 
 .grid{
@@ -337,6 +367,22 @@ body{
 }
 .acess2 .reset{
     padding-right: 120px;
+}
+button{
+    border-radius: 15px;
+}
+.max{
+    color: #0272FC;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: #0272FC 2px solid;
+}
+.max:hover{
+    background: #0272FC;
+    border: #fff 2px solid;
+    color: #fff;
 }
 /*
 .acces span{
